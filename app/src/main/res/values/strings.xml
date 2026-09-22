@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">LiftLogic</string>
+
+<!-- Auth: Login -->
+<string name="tagline">Train smart. Log fast.</string>
+<string name="label_email">Email</string>
+<string name="label_password">Password</string>
+<string name="action_log_in">Log In</string>
+<string name="prompt_no_account">Don\'t have an account? Sign Up</string>
+
+<!-- Auth: Register -->
+<string name="title_create_account">Create Account</string>
+<string name="label_full_name">Full name</string>
+<string name="label_email_address">Email address</string>
+<string name="label_password_min">Password (min 8 chars)</string>
+<string name="label_confirm_password">Confirm password</string>
+<string name="label_preferred_units">Preferred units</string>
+<string name="error_passwords_dont_match">Passwords don\'t match.</string>
+<string name="action_create_account">Create Account</string>
+<string name="prompt_have_account">Already have an account? Log In</string>
+
+<!-- Auth errors (AuthRepository) -->
+<string name="error_empty_fields">Please fill in every field. Password needs at least 8 characters.</string>
+<string name="error_email_taken">An account with that email already exists.</string>
+<string name="error_no_account">No account found for that email.</string>
+<string name="error_wrong_password">Incorrect password.</string>
+
+<!-- Bottom navigation (also reused as screen titles) -->
+<string name="tab_home">Home</string>
+<string name="tab_workouts">Workouts</string>
+<string name="tab_progress">Progress</string>
+<string name="tab_profile">Profile</string>
+
+<!-- Home -->
+<string name="format_streak_days">%1$d-Day Streak</string>
+<string name="format_level">Level %1$d</string>
+<string name="format_xp">%1$d XP</string>
+<string name="title_suggested_workout">Suggested Workout</string>
+<string name="sample_workout_name">Upper Body Strength</string>
+<string name="sample_workout_detail">6 exercises · ~45 min · based on recovery</string>
+<string name="action_start">Start</string>
+<string name="title_quick_actions">Quick Actions</string>
+<string name="action_start_empty_workout_multiline">Start Empty\nWorkout</string>
+<string name="action_exercise_library_multiline">Exercise\nLibrary</string>
+<string name="action_view_progress_multiline">View\nProgress</string>
+<string name="title_recent_workouts">Recent Workouts</string>
+<string name="empty_recent_workouts">No workouts logged yet — start one above!</string>
+<string name="format_workout_dated">Workout — %1$s</string>
+<string name="format_kg">%1$d kg</string>
+
+<!-- Exercise Library -->
+<string name="title_exercise_library">Exercise Library</string>
+<string name="category_all">All</string>
+<string name="category_chest">Chest</string>
+<string name="category_back">Back</string>
+<string name="category_legs">Legs</string>
+<string name="category_shoulders">Shoulders</string>
+<string name="category_arms">Arms</string>
+<string name="action_start_empty_workout">Start Empty Workout</string>
+<string name="fallback_unnamed_exercise">Unnamed exercise</string>
+<string name="fallback_tap_to_add">Tap to add to your workout</string>
+<string name="error_library_load">Couldn\'t reach the exercise database (%1$s).</string>
+<string name="error_network_generic">network error</string>
+
+<!-- Active Workout -->
+<string name="format_active_workout_title">Active Workout · %1$s</string>
+<string name="default_exercise_name">Bench Press</string>
+<string name="label_exercise">Exercise</string>
+<string name="label_kg">Kg</string>
+<string name="label_reps">Reps</string>
+<string name="action_add_set">+ Add Set</string>
+<string name="format_rest_timer">Rest Timer  %1$s</string>
+<string name="title_logged_sets">Logged Sets</string>
+<string name="format_set_row">%1$skg × %2$d</string>
+<string name="action_finish_workout">Finish Workout</string>
+
+<!-- Workout Summary -->
+<string name="title_workout_summary">Workout Summary</string>
+<string name="subtitle_great_session">Great session!</string>
+<string name="label_total_volume">Total Volume</string>
+<string name="format_xp_earned">+%1$d XP</string>
+<string name="label_xp_earned">XP Earned</string>
+<string name="title_badges_unlocked">Badges Unlocked</string>
+<string name="action_back_to_home">Back to Home</string>
+<string name="action_share_summary">Share Summary</string>
+<string name="badge_streak_7">7-Day Streak</string>
+
+<!-- Progress -->
+<string name="title_training_volume">Training Volume Over Time (kg)</string>
+<string name="empty_progress_chart">Log at least two workouts to see a trend line.</string>
+<string name="format_total_workouts">Total workouts logged: %1$d</string>
+<string name="text_progress_footnote">Estimated 1RM and body-weight history follow the same pattern once the REST-backed history/body-metric endpoints are wired to a real backend.</string>
+
+<!-- Profile -->
+<string name="format_level_xp">Level %1$d · %2$d XP</string>
+<string name="title_preferred_units">Preferred Units</string>
+<string name="unit_kg">kg</string>
+<string name="unit_lb">lb</string>
+<string name="label_notifications">Rest-timer &amp; streak notifications</string>
+<string name="action_save_settings">Save Settings</string>
+<string name="text_settings_saved">Settings saved.</string>
+<string name="action_log_out">Log Out</string>
+</resources>

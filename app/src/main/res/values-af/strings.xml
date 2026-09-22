@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">LiftLogic</string>
+
+<!-- Auth: Login -->
+<string name="tagline">Oefen slim. Teken vinnig aan.</string>
+<string name="label_email">E-pos</string>
+<string name="label_password">Wagwoord</string>
+<string name="action_log_in">Meld aan</string>
+<string name="prompt_no_account">Het jy nie \'n rekening nie? Registreer</string>
+
+<!-- Auth: Register -->
+<string name="title_create_account">Skep Rekening</string>
+<string name="label_full_name">Volle naam</string>
+<string name="label_email_address">E-posadres</string>
+<string name="label_password_min">Wagwoord (min. 8 karakters)</string>
+<string name="label_confirm_password">Bevestig wagwoord</string>
+<string name="label_preferred_units">Voorkeureenhede</string>
+<string name="error_passwords_dont_match">Wagwoorde stem nie ooreen nie.</string>
+<string name="action_create_account">Skep Rekening</string>
+<string name="prompt_have_account">Het jy reeds \'n rekening? Meld aan</string>
+
+<!-- Auth errors (AuthRepository) -->
+<string name="error_empty_fields">Vul asseblief elke veld in. Die wagwoord moet ten minste 8 karakters wees.</string>
+<string name="error_email_taken">\'n Rekening met daardie e-posadres bestaan reeds.</string>
+<string name="error_no_account">Geen rekening gevind vir daardie e-posadres nie.</string>
+<string name="error_wrong_password">Verkeerde wagwoord.</string>
+
+<!-- Bottom navigation (also reused as screen titles) -->
+<string name="tab_home">Tuis</string>
+<string name="tab_workouts">Oefeninge</string>
+<string name="tab_progress">Vordering</string>
+<string name="tab_profile">Profiel</string>
+
+<!-- Home -->
+<string name="format_streak_days">%1$d-dae reeks</string>
+<string name="format_level">Vlak %1$d</string>
+<string name="format_xp">%1$d XP</string>
+<string name="title_suggested_workout">Voorgestelde Oefening</string>
+<string name="sample_workout_name">Boonste Liggaamskrag</string>
+<string name="sample_workout_detail">6 oefeninge · ~45 min · gebaseer op herstel</string>
+<string name="action_start">Begin</string>
+<string name="title_quick_actions">Vinnige Aksies</string>
+<string name="action_start_empty_workout_multiline">Begin Leë\nOefening</string>
+<string name="action_exercise_library_multiline">Oefening-\nbiblioteek</string>
+<string name="action_view_progress_multiline">Bekyk\nVordering</string>
+<string name="title_recent_workouts">Onlangse Oefeninge</string>
+<string name="empty_recent_workouts">Nog geen oefeninge aangeteken nie — begin een hierbo!</string>
+<string name="format_workout_dated">Oefening — %1$s</string>
+<string name="format_kg">%1$d kg</string>
+
+<!-- Exercise Library -->
+<string name="title_exercise_library">Oefening-biblioteek</string>
+<string name="category_all">Almal</string>
+<string name="category_chest">Bors</string>
+<string name="category_back">Rug</string>
+<string name="category_legs">Bene</string>
+<string name="category_shoulders">Skouers</string>
+<string name="category_arms">Arms</string>
+<string name="action_start_empty_workout">Begin Leë Oefening</string>
+<string name="fallback_unnamed_exercise">Naamlose oefening</string>
+<string name="fallback_tap_to_add">Tik om by jou oefening te voeg</string>
+<string name="error_library_load">Kon nie die oefening-databasis bereik nie (%1$s).</string>
+<string name="error_network_generic">netwerkfout</string>
+
+<!-- Active Workout -->
+<string name="format_active_workout_title">Aktiewe Oefening · %1$s</string>
+<string name="default_exercise_name">Bankdruk</string>
+<string name="label_exercise">Oefening</string>
+<string name="label_kg">Kg</string>
+<string name="label_reps">Herhalings</string>
+<string name="action_add_set">+ Voeg Stel By</string>
+<string name="format_rest_timer">Rustydhouer  %1$s</string>
+<string name="title_logged_sets">Aangetekende Stelle</string>
+<string name="format_set_row">%1$skg × %2$d</string>
+<string name="action_finish_workout">Voltooi Oefening</string>
+
+<!-- Workout Summary -->
+<string name="title_workout_summary">Oefeningopsomming</string>
+<string name="subtitle_great_session">Wonderlike sessie!</string>
+<string name="label_total_volume">Totale Volume</string>
+<string name="format_xp_earned">+%1$d XP</string>
+<string name="label_xp_earned">XP Verdien</string>
+<string name="title_badges_unlocked">Kentekens Ontsluit</string>
+<string name="action_back_to_home">Terug na Tuis</string>
+<string name="action_share_summary">Deel Opsomming</string>
+<string name="badge_streak_7">7-Dae Reeks</string>
+
+<!-- Progress -->
+<string name="title_training_volume">Oefenvolume oor Tyd (kg)</string>
+<string name="empty_progress_chart">Teken ten minste twee oefeninge aan om \'n neigingslyn te sien.</string>
+<string name="format_total_workouts">Totale oefeninge aangeteken: %1$d</string>
+<string name="text_progress_footnote">Geskatte 1RM- en liggaamsgewig-geskiedenis volg dieselfde patroon sodra die REST-gerugsteunde geskiedenis-/liggaamsmaatstaf-eindpunte aan \'n regte agterkant gekoppel is.</string>
+
+<!-- Profile -->
+<string name="format_level_xp">Vlak %1$d · %2$d XP</string>
+<string name="title_preferred_units">Voorkeureenhede</string>
+<string name="unit_kg">kg</string>
+<string name="unit_lb">lb</string>
+<string name="label_notifications">Rustydhouer- en reeks-kennisgewings</string>
+<string name="action_save_settings">Stoor Instellings</string>
+<string name="text_settings_saved">Instellings gestoor.</string>
+<string name="action_log_out">Meld af</string>
+</resources>

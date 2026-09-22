@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">LiftLogic</string>
+
+<!-- Auth: Login -->
+<string name="tagline">Zilolonge ngobuhlakani. Bhalisa ngokushesha.</string>
+<string name="label_email">I-imeyili</string>
+<string name="label_password">Iphasiwedi</string>
+<string name="action_log_in">Ngena</string>
+<string name="prompt_no_account">Awunayo i-akhawunti? Bhalisa</string>
+
+<!-- Auth: Register -->
+<string name="title_create_account">Dala I-akhawunti</string>
+<string name="label_full_name">Igama eliphelele</string>
+<string name="label_email_address">Ikheli le-imeyili</string>
+<string name="label_password_min">Iphasiwedi (okungenani izinhlamvu ezingu-8)</string>
+<string name="label_confirm_password">Qinisekisa iphasiwedi</string>
+<string name="label_preferred_units">Amayunithi akhethiwe</string>
+<string name="error_passwords_dont_match">Amaphasiwedi awafani.</string>
+<string name="action_create_account">Dala I-akhawunti</string>
+<string name="prompt_have_account">Usunayo i-akhawunti? Ngena</string>
+
+<!-- Auth errors (AuthRepository) -->
+<string name="error_empty_fields">Sicela ugcwalise zonke izinkambu. Iphasiwedi kudingeka ibe nezinhlamvu ezingenani ezingu-8.</string>
+<string name="error_email_taken">I-akhawunti enale imeyili isivele ikhona.</string>
+<string name="error_no_account">Ayikho i-akhawunti etholakele ngale imeyili.</string>
+<string name="error_wrong_password">Iphasiwedi engalungile.</string>
+
+<!-- Bottom navigation (also reused as screen titles) -->
+<string name="tab_home">Ekhaya</string>
+<string name="tab_workouts">Ukuzivocavoca</string>
+<string name="tab_progress">Inqubekelaphambili</string>
+<string name="tab_profile">Iphrofayela</string>
+
+<!-- Home -->
+<string name="format_streak_days">Uchungechunge lwezinsuku ezingu-%1$d</string>
+<string name="format_level">Izinga %1$d</string>
+<string name="format_xp">%1$d XP</string>
+<string name="title_suggested_workout">Ukuzivocavoca Okuphakanyisiwe</string>
+<string name="sample_workout_name">Amandla Omzimba Ongenhla</string>
+<string name="sample_workout_detail">Ukuzivocavoca oku-6 · ~45 imizuzu · ngokususelwa ekululameni</string>
+<string name="action_start">Qala</string>
+<string name="title_quick_actions">Izenzo Ezisheshayo</string>
+<string name="action_start_empty_workout_multiline">Qala Ukuzivocavoca\nOkungenalutho</string>
+<string name="action_exercise_library_multiline">Umtapo Wolwazi\nWokuzivocavoca</string>
+<string name="action_view_progress_multiline">Buka\nInqubekelaphambili</string>
+<string name="title_recent_workouts">Ukuzivocavoca Kwakamuva</string>
+<string name="empty_recent_workouts">Akukho kuzivocavoca okuqoshiwe okwamanje — qala okukodwa ngenhla!</string>
+<string name="format_workout_dated">Ukuzivocavoca — %1$s</string>
+<string name="format_kg">%1$d kg</string>
+
+<!-- Exercise Library -->
+<string name="title_exercise_library">Umtapo Wolwazi Wokuzivocavoca</string>
+<string name="category_all">Konke</string>
+<string name="category_chest">Isifuba</string>
+<string name="category_back">Umhlane</string>
+<string name="category_legs">Imilenze</string>
+<string name="category_shoulders">Amahlombe</string>
+<string name="category_arms">Izingalo</string>
+<string name="action_start_empty_workout">Qala Ukuzivocavoca Okungenalutho</string>
+<string name="fallback_unnamed_exercise">Ukuzivocavoca okungaqanjiwe</string>
+<string name="fallback_tap_to_add">Thepha ukuze ufake kokuzivocavoca kwakho</string>
+<string name="error_library_load">Ayikwazanga ukufinyelela kudathabhesi yokuzivocavoca (%1$s).</string>
+<string name="error_network_generic">iphutha lenethiwekhi</string>
+
+<!-- Active Workout -->
+<string name="format_active_workout_title">Ukuzivocavoca Okusebenzayo · %1$s</string>
+<string name="default_exercise_name">Ukuphusha Ebhentshini</string>
+<string name="label_exercise">Ukuzivocavoca</string>
+<string name="label_kg">Kg</string>
+<string name="label_reps">Ukuphindaphinda</string>
+<string name="action_add_set">+ Engeza Iseti</string>
+<string name="format_rest_timer">Isikhathi Sokuphumula  %1$s</string>
+<string name="title_logged_sets">Amasethi Aqoshiwe</string>
+<string name="format_set_row">%1$skg × %2$d</string>
+<string name="action_finish_workout">Qeda Ukuzivocavoca</string>
+
+<!-- Workout Summary -->
+<string name="title_workout_summary">Isifinyezo Sokuzivocavoca</string>
+<string name="subtitle_great_session">Iseshini enhle!</string>
+<string name="label_total_volume">Ivolumu Iphelele</string>
+<string name="format_xp_earned">+%1$d XP</string>
+<string name="label_xp_earned">I-XP Etholiwe</string>
+<string name="title_badges_unlocked">Ama-Bheji Avuliwe</string>
+<string name="action_back_to_home">Buyela Ekhaya</string>
+<string name="action_share_summary">Yabelana Ngesifinyezo</string>
+<string name="badge_streak_7">Uchungechunge Lwezinsuku Ezingu-7</string>
+
+<!-- Progress -->
+<string name="title_training_volume">Ivolumu Yokuqeqesha Ngokuhamba Kwesikhathi (kg)</string>
+<string name="empty_progress_chart">Qopha okungenani ukuzivocavoca okubili ukuze ubone umugqa wokuthambekela.</string>
+<string name="format_total_workouts">Isamba sokuzivocavoca okuqoshiwe: %1$d</string>
+<string name="text_progress_footnote">Umlando olinganiselwe we-1RM nowesisindo somzimba ulandela iphethini efanayo uma amaphuzu okuphela e-REST omlando/isilinganiso somzimba exhunywe kusekelo langempela.</string>
+
+<!-- Profile -->
+<string name="format_level_xp">Izinga %1$d · %2$d XP</string>
+<string name="title_preferred_units">Amayunithi Akhethiwe</string>
+<string name="unit_kg">kg</string>
+<string name="unit_lb">lb</string>
+<string name="label_notifications">Izaziso zesikhathi sokuphumula nochungechunge</string>
+<string name="action_save_settings">Londoloza Izilungiselelo</string>
+<string name="text_settings_saved">Izilungiselelo zilondoloziwe.</string>
+<string name="action_log_out">Phuma</string>
+</resources>
