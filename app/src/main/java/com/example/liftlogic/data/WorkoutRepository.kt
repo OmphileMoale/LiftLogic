@@ -6,6 +6,27 @@ object BadgeKeys {
     const val STREAK_7 = "streak_7"
 }
 
+/**
+ * Pure calculation logic for finishing a workout, kept separate from the DAO
+ * calls in [WorkoutRepository] so it can be unit tested directly (see
+ * app/src/test/.../WorkoutCalculatorTest.kt) without needing a database or an
+ * Android runtime.
+ */
+object WorkoutCalculator {
+
+    /** Total volume lifted = sum of (weight x reps) across every logged set. */
+    fun calculateTotalVolume(sets: List<LoggedSetInput>): Float =
+        sets.fold(0f) { acc, s -> acc + (s.weightKg * s.reps) }
+
+    /**
+     * XP earned for a completed workout: a flat 10 XP for showing up, plus 1 XP
+     * per 100kg of total volume lifted (rounded down), rewarding both
+     * consistency (NFR1: fast logging encourages regular use) and effort.
+     */
+    fun calculateXp(totalVolumeKg: Float): Int =
+        10 + (totalVolumeKg / 100).toInt()
+}
+
 data class LoggedSetInput(
     val exerciseId: String,
     val exerciseName: String,
@@ -33,7 +54,7 @@ class WorkoutRepository(
         sets: List<LoggedSetInput>
     ): FinishWorkoutResult {
         val workoutId = UUID.randomUUID().toString()
-        val totalVolume = sets.fold(0f) { acc, s -> acc + (s.weightKg * s.reps) }
+        val totalVolume = WorkoutCalculator.calculateTotalVolume(sets)
 
         workoutDao.insertWorkout(
             WorkoutEntity(
@@ -59,7 +80,7 @@ class WorkoutRepository(
             }
         )
 
-        val xpEarned = 10 + (totalVolume / 100).toInt()
+        val xpEarned = WorkoutCalculator.calculateXp(totalVolume)
         val user = userDao.getUser(userId)
         val newBadges = mutableListOf<String>()
 
