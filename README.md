@@ -55,6 +55,34 @@ Room database (`liftlogic.db`) with the following tables:
 
 The app calls the public [wger.de](https://wger.de) REST API to fetch and search exercises (`api/v2/exercise/` and `api/v2/exercise/search/`). An internet connection is required for the exercise library; workout logging and progress tracking work offline via the local Room database.
 
+## Purpose & Design Considerations
+
+LiftLogic was built to give a gym-goer a single, offline-first place to plan and log workouts without needing a backend server or account on a third-party service. Key design decisions:
+
+- **Jetpack Compose over XML layouts** — chosen for a more modern, declarative UI approach and faster iteration on screen design.
+- **Room (local SQLite) over a remote database** — the app works fully offline for logging workouts and tracking progress, since a gym is not always a reliable place to have signal; only the exercise library needs network access.
+- **Repository pattern (AuthRepository, Workout repositories)** — separates data access from UI/ViewModel logic, making the code easier to test and reason about.
+- **Local, hashed authentication** — since there's no backend, passwords are salted and hashed on-device rather than stored in plain text, to still follow secure practice even without a server.
+- **wger.de public API for the exercise library** — rather than manually building an exercise database, the app pulls from an existing, actively maintained open exercise database.
+
+## GitHub & GitHub Actions
+
+The project is version-controlled on GitHub, with the full Kotlin source pushed as plain files (no zip archives), and commit history reflecting incremental development (initial Gradle scaffold → feature commits → refinements).
+
+A GitHub Actions workflow (`.github/workflows/android-build.yml`) automatically builds the app on every push and pull request to `main`:
+
+1. Checks out the repository.
+2. Sets up JDK 21 (Temurin distribution).
+3. Grants execute permission to the Gradle wrapper.
+4. Runs `./gradlew assembleDebug` to build the debug APK.
+5. Uploads the resulting `app-debug.apk` as a downloadable build artifact.
+
+This means every commit to `main` is automatically verified to still build successfully, and a fresh debug APK is always available from the Actions tab without needing to build locally.
+
+## Video Presentation
+
+A walkthrough of the app's features, with narration: **https://youtu.be/7aytCMmxjxA**
+
 ## Permissions
 
 - `INTERNET` — required to fetch exercises from the wger.de API
@@ -77,6 +105,10 @@ This repo is paired with a prebuilt debug package, `app-debug.apk`. To install i
 5. Open **LiftLogic** from your app drawer.
 
 > This is a **debug build**, not a Play Store release — expect debug logging and no code obfuscation/minification (`isMinifyEnabled = false`).
+
+## Repository
+
+Full source code: https://github.com/OmphileMoale/LiftLogic
 
 ## Notes
 
