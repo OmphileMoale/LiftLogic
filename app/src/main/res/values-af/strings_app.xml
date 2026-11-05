@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Tabs / titles -->
+    <string name="tab_exercises">Oefeninge</string>
+    <string name="title_profile_setup">Oor jou</string>
+    <string name="title_routine">Roetine</string>
+    <string name="title_new_routine">Nuwe roetine</string>
+    <string name="title_edit_routine">Wysig roetine</string>
+    <string name="title_add_exercises">Voeg oefeninge by</string>
+    <string name="title_custom_exercise">Nuwe oefening</string>
+    <string name="title_edit_exercise">Wysig oefening</string>
+    <string name="title_browse_online">Blaai aanlyn</string>
+    <string name="title_active_workout">Oefensessie</string>
+    <string name="title_workout">Oefensessie</string>
+    <string name="title_workout_complete">Oefensessie voltooi!</string>
+    <string name="title_history">Oefengeskiedenis</string>
+    <string name="title_body_weight">Liggaamsgewig</string>
+    <string name="title_tools">Oefenhulpmiddels</string>
+    <string name="title_exercises">Oefeninge</string>
+    <string name="title_e1rm_progress">Geskatte 1RM oor tyd</string>
+    <string name="title_how_to">Hoe om dit te doen</string>
+    <string name="title_recent_sessions">Jou onlangse sessies</string>
+    <string name="title_new_records">Nuwe persoonlike rekords</string>
+    <string name="title_personal_records">Persoonlike rekords</string>
+    <string name="title_weekly_volume">Weeklikse volume</string>
+    <string name="title_1rm_calculator">Een-herhaling-maksimum sakrekenaar</string>
+    <string name="title_plate_calculator">Plaatsakrekenaar</string>
+    <string name="title_finish_workout">Voltooi oefensessie?</string>
+    <string name="title_no_sets_done">Geen stelle voltooi nie</string>
+    <string name="title_delete_routine">Vee roetine uit?</string>
+    <string name="title_delete_exercise">Vee oefening uit?</string>
+
+    <!-- Onboarding / profile -->
+    <string name="text_onboarding_intro">Vertel ons \'n bietjie van jouself sodat LiftLogic die regte programme kan voorstel en jou vordering kan volg.</string>
+    <string name="label_goal">Hoofdoelwit</string>
+    <string name="label_experience">Ervaring</string>
+    <string name="label_body_stats">Liggaamstatistiek (opsioneel)</string>
+    <string name="label_height_cm">Lengte (cm)</string>
+    <string name="format_body_weight_hint">Liggaamsgewig (%1$s)</string>
+    <string name="format_email_locked">%1$s · e-pos kan nie verander word nie</string>
+    <string name="goal_build_muscle">Bou spiere</string>
+    <string name="goal_get_stronger">Word sterker</string>
+    <string name="goal_lose_fat">Verloor vet</string>
+    <string name="goal_stay_fit">Bly fiks</string>
+    <string name="experience_beginner">Beginner</string>
+    <string name="experience_intermediate">Intermediêr</string>
+    <string name="experience_advanced">Gevorderd</string>
+    <string name="action_continue">Gaan voort</string>
+    <string name="action_skip_for_now">Slaan nou oor</string>
+    <string name="error_invalid_email">Voer asseblief \'n geldige e-posadres in.</string>
+
+    <!-- Home -->
+    <string name="label_workout_in_progress">Oefensessie aan die gang</string>
+    <string name="format_name_and_time">%1$s · %2$s</string>
+    <string name="label_day_streak">Dagreeks</string>
+    <string name="label_this_week">Hierdie week</string>
+    <string name="label_weekly_goal">Weeklikse doelwit</string>
+    <string name="format_fraction">%1$d/%2$d</string>
+    <string name="format_weekly_progress">%1$d van %2$d oefensessies</string>
+    <string name="label_up_next">Volgende</string>
+    <string name="action_start_workout">Begin oefensessie</string>
+    <string name="action_empty_workout">Leeg</string>
+    <string name="action_routines">Roetines</string>
+    <string name="action_see_all">Sien alles</string>
+    <string name="text_no_routines_yet">Begin \'n leë oefensessie of kies \'n program.</string>
+    <string name="text_not_done_yet">nog nie gedoen nie</string>
+    <string name="format_last_done">laas gedoen %1$s</string>
+    <string name="default_workout_name">Vinnige oefensessie</string>
+    <string name="format_workout_stats">%1$s · %2$s · %3$s</string>
+
+    <!-- Routines -->
+    <string name="header_my_routines">MY ROETINES</string>
+    <string name="header_programs">PROGRAMME</string>
+    <string name="empty_routines">Jy het nog nie \'n roetine geskep nie. Tik “Nuwe roetine”, of kopieer \'n program hieronder.</string>
+    <string name="label_program">Program</string>
+    <string name="action_new_routine">Nuwe roetine</string>
+    <string name="action_edit">Wysig</string>
+    <string name="action_delete">Vee uit</string>
+    <string name="action_duplicate">Dupliseer</string>
+    <string name="action_copy_to_my_routines">Kopieer na my roetines</string>
+    <string name="format_routine_summary">%1$s · %2$s · ~%3$s</string>
+    <string name="format_routine_item">%1$d stelle × %2$s herhalings · rus %3$s</string>
+    <string name="empty_routine_exercises">Nog geen oefeninge nie. Tik “Voeg oefeninge by”.</string>
+    <string name="msg_delete_routine">“%1$s” sal verwyder word. Jou oefengeskiedenis word behou.</string>
+    <string name="text_routine_copied">Gekopieer na jou roetines</string>
+    <string name="text_routine_saved">Roetine gestoor</string>
+    <string name="label_routine_name">Roetinenaam</string>
+    <string name="label_description_optional">Beskrywing (opsioneel)</string>
+    <string name="hint_drag_to_reorder">Druk lank of sleep die handvatsel om te herrangskik.</string>
+    <string name="cd_reorder">Herrangskik</string>
+    <string name="action_remove">Verwyder</string>
+    <string name="label_sets">Stelle</string>
+    <string name="label_rest_seconds">Rus (s)</string>
+    <string name="action_add_exercises">Voeg oefeninge by</string>
+    <string name="action_save_routine">Stoor roetine</string>
+    <string name="error_routine_name">Gee jou roetine \'n naam.</string>
+    <string name="error_routine_empty">Voeg ten minste een oefening by.</string>
+
+    <!-- Exercises -->
+    <string name="hint_search_exercises">Soek oefeninge</string>
+    <string name="empty_exercise_search">Geen oefeninge pas nie. Probeer \'n ander soektog of voeg jou eie by.</string>
+    <string name="action_custom_exercise">Eie</string>
+    <string name="label_custom">Eie</string>
+    <string name="action_select_exercises">Kies oefeninge</string>
+    <string name="format_two_parts">%1$s · %2$s</string>
+    <string name="muscle_core">Kern</string>
+    <string name="muscle_full_body">Heelliggaam</string>
+    <string name="muscle_cardio">Kardio</string>
+    <string name="equipment_barbell">Stang</string>
+    <string name="equipment_dumbbell">Handgewig</string>
+    <string name="equipment_machine">Masjien</string>
+    <string name="equipment_cable">Kabel</string>
+    <string name="equipment_bodyweight">Liggaamsgewig</string>
+    <string name="equipment_kettlebell">Kettlebell</string>
+    <string name="equipment_band">Band</string>
+    <string name="equipment_other">Ander</string>
+    <string name="label_est_1rm">Gesk. 1RM</string>
+    <string name="label_heaviest">Beste stel</string>
+    <string name="label_sessions">Sessies</string>
+    <string name="empty_exercise_chart">Teken hierdie oefening in twee oefensessies aan om jou vordering te sien.</string>
+    <string name="empty_exercise_history">Jy het nog nie hierdie oefening aangeteken nie.</string>
+    <string name="text_no_instructions">Geen instruksies bygevoeg nie.</string>
+    <string name="msg_delete_exercise">“%1$s” sal uit jou biblioteek en roetines verwyder word. Vorige oefensessies behou dit.</string>
+    <string name="label_exercise_name">Oefeningnaam</string>
+    <string name="label_muscle_group">Spiergroep</string>
+    <string name="label_equipment">Toerusting</string>
+    <string name="label_instructions_optional">Instruksies (opsioneel)</string>
+    <string name="error_exercise_name">Voer \'n naam vir die oefening in.</string>
+    <string name="text_exercise_saved">Oefening gestoor</string>
+    <string name="action_save">Stoor</string>
+    <string name="text_online_source">Oefeninge uit die gratis wger.de-databasis. Tik op een om dit by jou biblioteek te voeg.</string>
+    <string name="action_retry">Probeer weer</string>
+    <string name="action_add_to_library">Voeg by biblioteek</string>
+    <string name="format_added_to_library">“%1$s” by jou biblioteek gevoeg</string>
+    <string name="text_already_in_library">Reeds in jou biblioteek</string>
+
+    <!-- Active workout -->
+    <string name="empty_active_workout">Voeg \'n oefening by om stelle aan te teken.</string>
+    <string name="action_add_exercise">Voeg oefening by</string>
+    <string name="action_rename">Hernoem</string>
+    <string name="label_workout_name">Oefensessienaam</string>
+    <string name="action_discard_workout">Gooi oefensessie weg</string>
+    <string name="action_discard">Gooi weg</string>
+    <string name="msg_discard_workout">Hierdie oefensessie en al sy stelle sal uitgevee word.</string>
+    <string name="col_set">Stel</string>
+    <string name="col_previous">Vorige</string>
+    <string name="col_reps">Herh.</string>
+    <string name="cd_set_done">Stel klaar</string>
+    <string name="cd_exercise_options">Oefeningopsies</string>
+    <string name="action_exercise_info">Oefeninginligting &amp; -geskiedenis</string>
+    <string name="action_remove_exercise">Verwyder oefening</string>
+    <string name="msg_remove_exercise">Verwyder %1$s en sy stelle uit hierdie oefensessie?</string>
+    <string name="format_target_and_rest">Teiken %1$s herhalings · rus %2$s</string>
+    <string name="format_rest_only">Rus %1$s</string>
+    <string name="format_set_short">%1$s × %2$d</string>
+    <string name="format_rest">Rus %1$s</string>
+    <string name="action_minus_15">−15</string>
+    <string name="action_plus_15">+15</string>
+    <string name="action_skip">Slaan oor</string>
+    <string name="error_enter_reps">Voer eers die herhalings in</string>
+    <string name="text_set_deleted">Stel uitgevee</string>
+    <string name="msg_finish_workout">Goeie werk! Stoor hierdie oefensessie?</string>
+    <string name="msg_no_sets_done">Merk ten minste een stel voordat jy voltooi, of gooi hierdie oefensessie weg.</string>
+    <string name="action_finish">Voltooi</string>
+    <string name="action_keep_going">Gaan voort</string>
+    <string name="dialog_workout_in_progress">Oefensessie aan die gang</string>
+    <string name="dialog_workout_in_progress_msg">Jy is reeds besig met “%1$s”. Hervat dit, of gooi dit weg en begin die nuwe een?</string>
+    <string name="action_resume">Hervat</string>
+    <string name="action_discard_and_start">Gooi weg &amp; begin</string>
+
+    <!-- Summary / history / detail -->
+    <string name="label_duration">Tydsduur</string>
+    <string name="label_records">Rekords</string>
+    <string name="format_set">%1$s × %2$d</string>
+    <string name="action_done">Klaar</string>
+    <string name="action_save_as_routine">Stoor as roetine</string>
+    <string name="share_workout_text">Ek het pas “%1$s” op LiftLogic voltooi 💪 %2$s · %3$s getel · %4$d stelle · %5$d nuwe PR\'s</string>
+    <string name="format_history_summary">%1$s · %2$s getel</string>
+    <string name="action_repeat_workout">Herhaal hierdie oefensessie</string>
+    <string name="action_delete_workout">Vee oefensessie uit</string>
+    <string name="msg_delete_workout">Hierdie oefensessie sal uit jou geskiedenis verwyder word.</string>
+    <string name="label_bodyweight_short">LG</string>
+    <string name="label_pr_marker">★ PR</string>
+
+    <!-- Progress -->
+    <string name="label_workouts">Oefensessies</string>
+    <string name="label_this_month">Hierdie maand</string>
+    <string name="format_weekly_volume_title">Weeklikse volume (%1$s)</string>
+    <string name="action_log_weight">Teken gewig aan</string>
+    <string name="label_weight">Gewig</string>
+    <string name="text_weight_logged">Liggaamsgewig aangeteken</string>
+    <string name="text_no_body_weight">Nog geen inskrywings nie</string>
+    <string name="format_weight_change">%1$s sedert %2$s</string>
+    <string name="empty_records">Voltooi \'n oefensessie om rekords te begin vestig.</string>
+    <string name="format_record_detail">Beste stel %1$s · %2$s</string>
+    <string name="format_e1rm">1RM %1$s</string>
+    <string name="action_view_history">Bekyk oefengeskiedenis</string>
+    <string name="empty_body_weight_chart">Teken jou gewig ten minste twee keer aan om \'n neiging te sien.</string>
+    <string name="hint_swipe_to_delete">Swiep \'n inskrywing om dit uit te vee.</string>
+
+    <!-- Profile / badges -->
+    <string name="format_xp_progress">%1$d / %2$d XP</string>
+    <string name="label_member_since">Lid sedert</string>
+    <string name="format_badges_title">Kentekens · %1$d van %2$d</string>
+    <string name="text_badge_unlocked">✓ Ontsluit</string>
+    <string name="badge_first_workout">Eerste oefensessie</string>
+    <string name="badge_first_workout_desc">Voltooi jou eerste oefensessie.</string>
+    <string name="badge_workouts_10">10 oefensessies</string>
+    <string name="badge_workouts_10_desc">Voltooi 10 oefensessies.</string>
+    <string name="badge_workouts_50">50 oefensessies</string>
+    <string name="badge_workouts_50_desc">Voltooi 50 oefensessies.</string>
+    <string name="badge_streak_3">3-dae reeks</string>
+    <string name="badge_streak_3_desc">Oefen drie dae agtereenvolgens.</string>
+    <string name="badge_streak_7_desc">Oefen sewe dae agtereenvolgens.</string>
+    <string name="badge_volume_10k">10-ton-dag</string>
+    <string name="badge_volume_10k_desc">Tel 10 000 kg totale volume in een oefensessie.</string>
+    <string name="badge_first_pr">Rekordbreker</string>
+    <string name="badge_first_pr_desc">Verbeter een van jou persoonlike rekords.</string>
+    <string name="badge_early_bird">Vroegvoël</string>
+    <string name="badge_early_bird_desc">Begin \'n oefensessie voor 07:00.</string>
+
+    <!-- Tools -->
+    <string name="text_1rm_explainer">Skat die swaarste wat jy een keer kan optel, vanaf \'n stel wat jy gedoen het (Epley-formule).</string>
+    <string name="format_weight_hint">Gewig (%1$s)</string>
+    <string name="format_target_weight_hint">Teikengewig (%1$s)</string>
+    <string name="text_1rm_prompt">Voer \'n gewig en herhalings in</string>
+    <string name="format_estimated_1rm">Geskatte 1RM: %1$s</string>
+    <string name="format_approx_reps">~%1$s herhalings</string>
+    <string name="label_bar_weight">Stang</string>
+    <string name="label_no_bar">Geen stang</string>
+    <string name="text_plate_prompt">Voer die totale gewig in wat jy op die stang wil hê.</string>
+    <string name="error_target_below_bar">Die teiken is ligter as die stang.</string>
+    <string name="text_just_the_bar">Net die stang!</string>
+    <string name="format_plates_per_side">Elke kant: %1$s (%2$s)</string>
+    <string name="format_plate_remainder">%1$s kan nie met standaardplate gemaak word nie.</string>
+
+    <!-- Settings -->
+    <string name="settings_training">Oefening</string>
+    <string name="settings_units">Gewigeenhede</string>
+    <string name="unit_kg_long">Kilogram (kg)</string>
+    <string name="unit_lb_long">Pond (lb)</string>
+    <string name="settings_default_rest">Verstek rustydhouer</string>
+    <string name="settings_rest_alert">Rustydhouer-waarskuwings</string>
+    <string name="settings_rest_alert_desc">Vibreer en stel in kennis wanneer rus verby is</string>
+    <string name="settings_reminders">Herinneringe</string>
+    <string name="settings_daily_reminder">Daaglikse oefenherinnering</string>
+    <string name="settings_daily_reminder_desc">Net as jy nie daardie dag geoefen het nie</string>
+    <string name="settings_reminder_time">Herinneringstyd</string>
+    <string name="text_reminder_set">Herinnering gestoor</string>
+    <string name="settings_about">Oor LiftLogic</string>
+    <string name="text_about">LiftLogic is \'n oefenopspoorder: teken stelle aan, volg roetines, verbeter jou persoonlike rekords en kyk hoe jou vordering groei. Oefeningdata van wger.de.</string>
+    <string name="format_version">LiftLogic %1$s</string>
+
+    <!-- Notifications -->
+    <string name="channel_rest_timer">Rustydhouer</string>
+    <string name="channel_rest_timer_desc">Sê vir jou wanneer jou rus tussen stelle verby is</string>
+    <string name="channel_reminders">Oefenherinneringe</string>
+    <string name="channel_reminders_desc">\'n Daaglikse aansporing om te oefen</string>
+    <string name="notif_rest_over_title">Rus is verby</string>
+    <string name="notif_rest_over_text">Tyd vir jou volgende stel 💪</string>
+    <string name="notif_reminder_title">Tyd om te oefen!</string>
+    <string name="notif_reminder_text">Jy het nie vandag geoefen nie. Selfs \'n kort sessie hou jou reeks aan die gang.</string>
+
+    <!-- Plurals -->
+    <plurals name="exercise_count">
+        <item quantity="one">%d oefening</item>
+        <item quantity="other">%d oefeninge</item>
+    </plurals>
+    <plurals name="set_count">
+        <item quantity="one">%d stel</item>
+        <item quantity="other">%d stelle</item>
+    </plurals>
+    <plurals name="workout_count">
+        <item quantity="one">%d oefensessie</item>
+        <item quantity="other">%d oefensessies</item>
+    </plurals>
+    <plurals name="weekly_goal_label">
+        <item quantity="one">Weeklikse doelwit: %d oefensessie</item>
+        <item quantity="other">Weeklikse doelwit: %d oefensessies</item>
+    </plurals>
+    <plurals name="action_add_n_exercises">
+        <item quantity="one">Voeg %d oefening by</item>
+        <item quantity="other">Voeg %d oefeninge by</item>
+    </plurals>
+    <plurals name="msg_finish_unfinished">
+        <item quantity="one">%d stel is nie gemerk nie en sal verwyder word. Voltooi in elk geval?</item>
+        <item quantity="other">%d stelle is nie gemerk nie en sal verwyder word. Voltooi in elk geval?</item>
+    </plurals>
+</resources>
