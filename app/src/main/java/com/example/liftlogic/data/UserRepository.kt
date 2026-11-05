@@ -1,4 +1,5 @@
 package com.example.liftlogic.data
+import android.util.Log
 
 import com.example.liftlogic.data.db.UserDao
 import com.example.liftlogic.data.db.UserEntity
@@ -25,6 +26,7 @@ class UserRepository(private val userDao: UserDao) {
     suspend fun getUser(userId: String) = userDao.getUser(userId)
 
     suspend fun register(name: String, email: String, password: String, units: String): AuthResult {
+        Log.d("UserRepository", "register: attempting for email=$email")
         val cleanEmail = email.trim().lowercase()
         if (name.isBlank() || cleanEmail.isBlank() || password.length < 8) {
             return AuthResult.Failure(AuthError.EMPTY_FIELDS)
@@ -50,6 +52,7 @@ class UserRepository(private val userDao: UserDao) {
     }
 
     suspend fun login(email: String, password: String): AuthResult {
+        Log.d("UserRepository", "login: attempting for email=$email")
         if (email.isBlank() || password.isBlank()) return AuthResult.Failure(AuthError.EMPTY_FIELDS)
         val user = userDao.findByEmail(email.trim().lowercase())
             ?: return AuthResult.Failure(AuthError.NO_ACCOUNT)

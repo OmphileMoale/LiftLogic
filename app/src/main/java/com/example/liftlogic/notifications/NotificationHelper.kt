@@ -1,4 +1,5 @@
 package com.example.liftlogic.notifications
+import android.util.Log
 
 import android.Manifest
 import android.app.NotificationChannel
@@ -69,6 +70,7 @@ class NotificationHelper(private val context: Context) {
     }
 
     private fun post(id: Int, builder: NotificationCompat.Builder) {
+        Log.d("NotificationHelper", "posting notification id=$id")
         if (!canPostNotifications()) return
         try {
             NotificationManagerCompat.from(context).notify(id, builder.build())

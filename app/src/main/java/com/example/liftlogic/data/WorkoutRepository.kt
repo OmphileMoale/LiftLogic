@@ -1,4 +1,5 @@
 package com.example.liftlogic.data
+import android.util.Log
 
 import androidx.room.withTransaction
 import com.example.liftlogic.data.db.AppDatabase
@@ -225,6 +226,7 @@ class WorkoutRepository(private val db: AppDatabase, scope: CoroutineScope) {
      * Returns null when no set was completed (nothing to save).
      */
     suspend fun finish(userId: String, workoutId: Long): FinishResult? {
+        Log.d("WorkoutRepository", "finish: userId=$userId workoutId=$workoutId")
         flush()
         return db.withTransaction {
             val workout = workoutDao.getWorkout(workoutId) ?: return@withTransaction null
