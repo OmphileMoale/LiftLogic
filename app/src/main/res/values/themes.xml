@@ -1,0 +1,96 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Main app theme (Material Components / XML). Light + dark come from values / values-night colours. -->
+    <style name="Theme.LiftLogic" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/lift_green</item>
+        <item name="colorOnPrimary">@color/app_on_primary</item>
+        <item name="colorPrimaryContainer">@color/app_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/app_on_primary_container</item>
+        <item name="colorSecondary">@color/amber_badge</item>
+        <item name="colorSecondaryContainer">@color/app_primary_container</item>
+        <item name="colorOnSecondaryContainer">@color/app_on_primary_container</item>
+        <item name="android:colorBackground">@color/app_background</item>
+        <item name="colorSurface">@color/app_surface</item>
+        <item name="colorOnSurface">@color/app_on_surface</item>
+        <item name="colorOnBackground">@color/app_on_surface</item>
+        <item name="colorSurfaceVariant">@color/app_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/app_on_surface_variant</item>
+        <item name="colorOutline">@color/app_outline</item>
+        <item name="android:statusBarColor">@color/app_background</item>
+        <item name="android:navigationBarColor">@color/app_surface</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">@bool/light_system_bars</item>
+    </style>
+
+    <!-- Accent colour overlays applied at runtime from the Theme screen -->
+    <style name="ThemeOverlay.LiftLogic.Accent.Green" parent="">
+        <item name="colorPrimary">@color/accent_green</item>
+    </style>
+    <style name="ThemeOverlay.LiftLogic.Accent.Blue" parent="">
+        <item name="colorPrimary">@color/accent_blue</item>
+    </style>
+    <style name="ThemeOverlay.LiftLogic.Accent.Purple" parent="">
+        <item name="colorPrimary">@color/accent_purple</item>
+    </style>
+    <style name="ThemeOverlay.LiftLogic.Accent.Orange" parent="">
+        <item name="colorPrimary">@color/accent_orange</item>
+    </style>
+    <style name="ThemeOverlay.LiftLogic.Accent.Red" parent="">
+        <item name="colorPrimary">@color/accent_red</item>
+    </style>
+
+    <!-- Reusable text styles (were ui/theme/Type.kt) -->
+    <style name="TextAppearance.LiftLogic.Headline" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">26sp</item>
+    </style>
+    <style name="TextAppearance.LiftLogic.Title" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="TextAppearance.LiftLogic.TitleLarge" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- Section heading inside a screen -->
+    <style name="LiftLogic.SectionTitle" parent="">
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.LiftLogic.Title</item>
+    </style>
+
+    <!-- Small rounded label, e.g. "Program", "Custom", muscle group -->
+    <style name="LiftLogic.Tag" parent="">
+        <item name="android:background">@drawable/bg_tag</item>
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:paddingEnd">8dp</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:textAppearance">?attr/textAppearanceLabelSmall</item>
+        <item name="android:textColor">?attr/colorOnPrimaryContainer</item>
+    </style>
+
+    <!-- Column headings in the workout logger (SET / PREVIOUS / KG / REPS) -->
+    <style name="LiftLogic.ColumnLabel" parent="">
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textAppearance">?attr/textAppearanceLabelSmall</item>
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
+    </style>
+
+    <!-- Group heading on the Settings screen -->
+    <style name="LiftLogic.SettingsHeader" parent="">
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:textAppearance">?attr/textAppearanceLabelLarge</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+    </style>
+
+    <!-- Circular image for the profile picture -->
+    <style name="ShapeAppearance.LiftLogic.Circle" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>

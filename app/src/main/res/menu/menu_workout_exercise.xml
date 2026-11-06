@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_exercise_info"
+        android:title="@string/action_exercise_info" />
+    <item
+        android:id="@+id/action_remove_exercise"
+        android:title="@string/action_remove_exercise" />
+</menu>

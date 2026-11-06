@@ -25,7 +25,8 @@ This repository state is the **final PoE** for OPSC6312 Part 3. The final commit
 |---|---|
 | 🎥 **Demo video (voice-over)** | [Watch the demo video](https://youtu.be/IXFml846ed8) |
 | 🏷️ **Final tag / release** | `final-PoE` (see the **Releases** section of this repo) |
-| 📱 **APK** | [Download from the final-PoE release](https://github.com/OmphileMoale/LiftLogic/releases/tag/final-PoE) |
+| 📱 **Signed APK** | [Download the signed release APK from the final-PoE release](https://github.com/OmphileMoale/LiftLogic/releases/tag/final-PoE) (`LiftLogic-v3.0-release.apk`) |
+| 💻 **Source code** | Kotlin sources in [`app/src/main`](app/src/main), XML layouts in `app/src/main/res/layout` |
 | 🧪 **Build status** | [GitHub Actions](https://github.com/OmphileMoale/LiftLogic/actions) |
 
 **Team (DISD 3, Group 12):** Oladele Rakgolela (ST10449832) · Omphile Moale (ST10455873) · Lebo Ramoshaba (ST10453111)
@@ -143,8 +144,9 @@ All four features from our Part 1 plan are in the final app.
 | App icon and final image assets | Dumbbell-and-trend-line icon from Part 1. |
 | Handles invalid input | Validation with friendly messages. |
 | GitHub, README, automated testing | This README, regular commits, and GitHub Actions that run unit tests and build the app. |
-| Comments and logging | Comments throughout the code. |
+| Comments and logging | Comments throughout the code, and `Log` statements in authentication (`UserRepository`), workout saving (`WorkoutRepository`) and notifications (`NotificationHelper`). |
 | Release notes | Section 10. |
+| Signed APK | Signed release APK attached to the `final-PoE` release (section 12). |
 | Prepared for Google Play | Section 12. |
 
 ---
@@ -165,6 +167,8 @@ All four features from our Part 1 plan are in the final app.
 A green tick means the code compiles and the tests pass on a clean machine.
 
 **What we learned.** In Part 2 the workflow failed three times in a row. We read each failed run's log in the Actions tab, traced the problems to the Gradle wrapper version and JDK setup, fixed `gradle-wrapper.properties` and the workflow, and the build passed on commit `4c70f0d`.
+
+**Final PoE lesson.** Runs #12 to #15 failed in about ten seconds because commit `ce30444` was made from the wrong folder and removed the project files from `main`, so `gradlew` no longer existed. We found it by comparing the file lists of the commits, restored the full project from commit `3a0a0d5`, and moved the `final-PoE` tag to the repaired commit.
 
 **Limitation.** The debug APK built by Actions is signed with a different debug key from the one registered for Sign in with Google, so Google sign-in does not work in that APK. Actions proves the code builds and passes its tests; demo builds are made in Android Studio.
 
@@ -260,6 +264,8 @@ The prototype (Part 1) was a design document with wireframes. Part 2 was a worki
 
 The Play Store preparation (store listing text, assets, signing plan and policy checklist) is documented in **Section 3** of the submitted Word document. The release package name is `com.oladele.liftlogicgym`, which is registered for Google sign-in.
 
+The APK in the `final-PoE` release is a **signed release build**. The release keystore is private and is excluded from the repository by `.gitignore`.
+
 New personal Play Console accounts must run a closed test with at least 12 testers for 14 days before applying for production access, so the app is **ready to publish** once that period is complete.
 
 ---
@@ -271,7 +277,7 @@ New personal Play Console accounts must run a closed test with at least 12 teste
 1. `git clone https://github.com/OmphileMoale/LiftLogic.git`
 2. Open the folder containing `settings.gradle.kts` in Android Studio and wait for the Gradle sync.
 3. Connect your phone and press **Run**.
-4. Or download the APK from the `final-PoE` release.
+4. Or download `LiftLogic-v3.0-release.apk` from the `final-PoE` release on a phone, open it and allow installs from this source when Android asks.
 
 ---
 

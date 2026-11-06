@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Home -->
+    <string name="greeting_morning">Sawubona,</string>
+    <string name="greeting_afternoon">Sawubona,</string>
+    <string name="greeting_evening">Sawubona,</string>
+    <string name="default_athlete">Umdlali wezemidlalo</string>
+    <string name="stat_streak">Uchungechunge</string>
+    <string name="stat_level">Izinga</string>
+    <string name="stat_xp">XP</string>
+    <string name="quick_new_workout">Ukuzivocavoca okusha</string>
+    <string name="quick_library">Umtapo</string>
+    <string name="quick_stats">Izibalo</string>
+    <string name="format_total_volume">Ivolumu iyonke engu-%1$d kg</string>
+
+    <!-- Common -->
+    <string name="cd_settings">Izilungiselelo</string>
+    <string name="cd_back">Emuva</string>
+    <string name="action_cancel">Khansela</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Izilungiselelo</string>
+    <string name="settings_user">Izilungiselelo zomsebenzisi</string>
+    <string name="settings_edit_profile">Hlela iphrofayela</string>
+    <string name="settings_email">I-imeyili / Igama lomsebenzisi</string>
+    <string name="settings_change_password">Shintsha iphasiwedi</string>
+    <string name="settings_profile_picture">Isithombe sephrofayela</string>
+    <string name="settings_appearance">Ukubukeka kohlelo lokusebenza</string>
+    <string name="settings_dark_mode">Imodi emnyama</string>
+    <string name="settings_theme">Itimu</string>
+    <string name="settings_language">Ulimi</string>
+    <string name="settings_select_language">Khetha ulimi</string>
+    <string name="language_english">English</string>
+    <string name="language_afrikaans">Afrikaans</string>
+    <string name="language_zulu">isiZulu</string>
+
+    <!-- Edit profile / email -->
+    <string name="action_save_changes">Londoloza izinguquko</string>
+    <string name="text_profile_updated">Iphrofayela ibuyekeziwe.</string>
+    <string name="error_name_empty">Sicela ufake igama lakho.</string>
+    <string name="text_email_support">Xhumana nosekelo ukuze ushintshe ikheli le-imeyili olibhalisile.</string>
+
+    <!-- Change password -->
+    <string name="label_current_password">Iphasiwedi yamanje</string>
+    <string name="label_new_password">Iphasiwedi entsha (okungenani izinhlamvu ezingu-8)</string>
+    <string name="label_confirm_new_password">Qinisekisa iphasiwedi entsha</string>
+    <string name="action_update_password">Buyekeza iphasiwedi</string>
+    <string name="text_password_updated">Iphasiwedi ibuyekeziwe.</string>
+    <string name="error_password_too_short">Iphasiwedi entsha idinga okungenani izinhlamvu ezingu-8.</string>
+
+    <!-- Profile picture -->
+    <string name="action_change_photo">Shintsha isithombe</string>
+    <string name="action_remove_photo">Susa isithombe samanje</string>
+    <string name="cd_profile_picture">Isithombe sephrofayela</string>
+
+    <!-- Theme -->
+    <string name="title_app_theme">Itimu yohlelo lokusebenza</string>
+    <string name="label_accent_color">Umbala oqokiwe</string>
+    <string name="accent_green">Luhlaza we-Lift</string>
+    <string name="accent_blue">Ibhuluu lolwandle</string>
+    <string name="accent_purple">Okububende kwasebukhosini</string>
+    <string name="accent_orange">Okwolintshi kokushona kwelanga</string>
+    <string name="accent_red">Okubomvu okujulile</string>
+    <string name="action_apply_theme">Faka itimu</string>
+
+    <!-- Summary share -->
+    <string name="share_summary_text">Ngiqede nje ukuzivocavoca kwe-LiftLogic: ivolumu iyonke engu-%1$d kg kanye no-+%2$d XP!</string>
+</resources>
